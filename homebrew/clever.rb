@@ -14,12 +14,8 @@ class Clever < Formula
   depends_on 'pcre'
   depends_on 're2c'
   
-  #depends_on :x11 # if your formula requires any X11/XQuartz components
-
   def install
-    # ENV.j1  # if your formula's build system can't parallelize
-
     system "cmake", ".", *std_cmake_args
-    system "make install" # if this fails, try separate make/make install steps
+    system "make" # if this fails, try separate make/make install steps
   end
 end
