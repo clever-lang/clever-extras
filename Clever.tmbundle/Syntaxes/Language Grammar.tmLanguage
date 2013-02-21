@@ -245,7 +245,7 @@
 							<key>match</key>
 							<string>\G[$_a-zA-Z][$_a-zA-Z0-9]*</string>
 							<key>name</key>
-							<string>variable.parameter.function.js</string>
+							<string>variable.parameter.function.clever</string>
 						</dict>
 						<dict>
 							<key>include</key>
